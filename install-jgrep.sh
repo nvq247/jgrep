@@ -9,3 +9,4 @@ alias jgrep='java -jar ~/.jgrep.jar'
 alias jgrep='java -jar ~/.jgrep.jar'
 "~/.profile
 alias jgrep='java -jar ~/.jgrep.jar
+#
