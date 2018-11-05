@@ -1,7 +1,7 @@
 #install java
 java -version || sudo yum insatll java 2>/dev/null || sudo apt-get install java || yum insatll java 2>/dev/null ||  apt-get install java
 #download 
-wget https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar ~/.jgrep.jar || curl https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar -o ~/.jgrep.jar 
+wget https://raw.githubusercontent.com/nvq247/jgrep/master/jgrep.jar ~/.jgrep.jar || curl https://raw.githubusercontent.com/nvq247/jgrep/master/jgrep.jar -o ~/.jgrep.jar 
 
 echo "
 alias jgrep='java -jar ~/.jgrep.jar'
