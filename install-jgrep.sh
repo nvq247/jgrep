@@ -8,5 +8,5 @@ alias jgrep='java -jar ~/.jgrep.jar'
 " >> ~/.bash_profile || echo "
 alias jgrep='java -jar ~/.jgrep.jar'
 " >> ~/.profile
-alias jgrep='java -jar ~/.jgrep.jar
+alias jgrep='java -jar ~/.jgrep.jar'
 # 
