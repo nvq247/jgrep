@@ -5,8 +5,8 @@ wget https://raw.githubusercontent.com/nvq247/jgrep/master/jgrep.jar ~/.jgrep.ja
 
 echo "
 alias jgrep='java -jar ~/.jgrep.jar'
-"~/.bash_profile || echo "
+" >> ~/.bash_profile || echo "
 alias jgrep='java -jar ~/.jgrep.jar'
-"~/.profile
+" >> ~/.profile
 alias jgrep='java -jar ~/.jgrep.jar
 # 
