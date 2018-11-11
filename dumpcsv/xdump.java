@@ -48,8 +48,7 @@ public class xdump {
 	     vParams.put("csv-delimiter", 3);
 	     vParams.put("csv-quote-mode", 3);
 	     vParams.put("i", 3);
-	     Map<String, String> prs = parseArgs(new String[]{"-hnode1","-u","root","-f","-p1234569@aA","tygia","domain","-o","/Users/nvq/text1.csv","--use-compression"}, false,vParams);
-	     //Map<String, String> prs = parseArgs(args, false,vParams);
+	     Map<String, String> prs = parseArgs(args, false,vParams);
 	     
 	     LinkedHashMap<String, String> drivers=new java.util.LinkedHashMap();
 	     if(prs.containsKey("help")) {
