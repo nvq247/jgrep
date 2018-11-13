@@ -76,7 +76,7 @@ public class xdump {
 	    	 }
 	     }
 	     
-	    prs = parseArgs(new String[]{"-hnode1","-u","root","-Z","-p1234569@aA","tygia","-domain","-f","-o","/Users/nvq/xdump/alldb.zip","--use-compression"}, false,vParams);
+	    prs = parseArgs(args, false,vParams);
 	     //Map<String, String> prs = parseArgs(args, false,vParams);
 	     
 	     CSVFormat format = CSVFormat.DEFAULT;
