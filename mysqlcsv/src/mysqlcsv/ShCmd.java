@@ -49,11 +49,7 @@ public class ShCmd {
 				 if (s.startsWith("--")) {
 						int i = s.indexOf("=");
 						if (i > 0) {
-							String vv = s.substring(1 + i);
-							if((vv.startsWith("'") && vv.endsWith("'")) || (vv.startsWith("\"") && vv.endsWith("\""))) {
-								vv=vv.substring(1, vv.length()-1);
-							}
-							rs.put(s.substring(0, i).substring(2),vv );
+							rs.put(s.substring(0, i).substring(2), s.substring(1 + i));
 						} else {
 							rs.put(s.substring(2), "");
 						}
