@@ -53,8 +53,8 @@ cat 123|pipe -i    infile0 sock:outhost:999 outfile2 outfile3
 
 
 
-
+=================================== CSVQL =============================================
+java8 require!!
 
 csvql "select \"column\" from \"file_name_csv\" where "colunm2" ='1' ";
-
 csvql "!table"
